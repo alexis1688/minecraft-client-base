@@ -1,0 +1,11 @@
+# Project-specific overrides
+# Language detection rules
+build/* linguist-vendored
+*.htm linguist-vendored
+*.min.js linguist-generated
+src/**/*.tsx linguist-detectable
+*.gif binary
+* text=auto eol=lf
+*.sh text eol=lf
+*.woff2 binary
+*.yml linguist-detectable=false
